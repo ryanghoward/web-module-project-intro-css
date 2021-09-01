@@ -43,7 +43,6 @@ blockquote, q {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid gray;
 }
 
 /* General Styles */
@@ -91,7 +90,7 @@ nav a {
 }
 
 .blue {
-    background-color: #5ed3eb;
+    background-color: #5ed3eb;#5ed3eb;
     margin: 0 24%;
 }
 
@@ -114,7 +113,6 @@ nav a {
 
 .left, .right {
     display: inline-block;
-    /* margin-left: 5%; */
 }
 
 .left {
@@ -138,30 +136,66 @@ nav a {
 
 .text {
     color: white;
-    margin: 10 auto;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: peachpuff;
-    border: 1px solid gray;
+    margin: 0 5%;
+    padding: 0 0;
+    background-color: #ddb9a3;
+    
 }
 
 .paragraphs {
     text-align: center;
-    padding: 2rem;
-    border: 1px solid gray;
+    padding: 1em 0;
+    
 }
 
 .container {
-    padding: 10%;
-    border: 1px solid gray;
+    padding: 0 0;
 }
 
 .fire, .rv {
     text-align: center;
     margin: 0 auto;
-    border: 1px solid gray;
 }
 
+.fire, .rv {
+    text-align: center;
+    margin: 0 37% 0 37%;
+}
+
+
 #fire-img, #rv-img {
-    border: 1px solid gray;
+    width: 10vw;
+}
+
+.footer-img {
+    height: 30vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background {
+    height: 50vh;
+    background-image: url('assets/footer_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F9E7DC;
+}
+
+.orange:hover {
+    background-color: hotpink;
+    transition: 0.5s;
+    color: black;
+}
+
+.blue:hover {
+    background-color: #000;
+    transition: 0.5s;
+    color: #5ed3eb;
+}
+
+.yellow:hover {
+    background-color: purple;
+    transition: 0.5s;
+    color: yellow;
 }
