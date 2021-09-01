@@ -99,6 +99,24 @@ nav a {
     margin-right: 10%;
 }
 
+.orange:hover {
+    background-color: hotpink;
+    transition: 0.5s;
+    color: black;
+}
+
+.blue:hover {
+    background-color: #000;
+    transition: 0.5s;
+    color: #5ed3eb;
+}
+
+.yellow:hover {
+    background-color: purple;
+    transition: 0.5s;
+    color: yellow;
+}
+
 .always-open, .come-explore {
     text-align: center;
     margin-top: 5%;
@@ -134,12 +152,25 @@ nav a {
     top: 40%;
 }
 
+.right:hover {
+    color: #000;
+    transition: 1s;
+}
+
 .text {
     color: white;
     margin: 0 5%;
     padding: 0 0;
     background-color: #ddb9a3;
     
+}
+
+.text:hover {
+    background-image: url('assets/footer_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    transition: 0.5s;
 }
 
 .paragraphs {
@@ -150,11 +181,6 @@ nav a {
 
 .container {
     padding: 0 0;
-}
-
-.fire, .rv {
-    text-align: center;
-    margin: 0 auto;
 }
 
 .fire, .rv {
@@ -182,20 +208,6 @@ nav a {
     background-color: #F9E7DC;
 }
 
-.orange:hover {
-    background-color: hotpink;
-    transition: 0.5s;
-    color: black;
-}
-
-.blue:hover {
-    background-color: #000;
-    transition: 0.5s;
-    color: #5ed3eb;
-}
-
-.yellow:hover {
-    background-color: purple;
-    transition: 0.5s;
-    color: yellow;
+footer {
+    background-color: #f9e7dc;
 }
